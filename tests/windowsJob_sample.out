@@ -1,0 +1,53 @@
+1,Go to http://192.168.94.15:8080/#/login ,Storfirst Migration successfully opens.,Pass
+2,Login in as seven10., User seven10 is successfully logged in SFM.,Pass
+3,Verfiy the version under test.,Build Number -Version:6.0.1.RC30
+4,Go to Jobs\Job Management.,The Job Management screen opens.,Pass
+5,Click Create Job.,The + New Job popuop opens.,Pass
+6,Record the Job Number that is created.,Job Number = AUTO-SMOKE-WINDOWS_IobLj,Pass
+7,Use the filter to find the job that was created above. filter on the following value: IobLj, The filter is applied to the job.,Pass
+8,Run the job.,The job starts Running.,Pass
+9,Track the job through its various stages.,Job is tracked via assertions below.
+Assertion PASSED for Job Source = qa4_source1
+Assertion PASSED for Job Destination = qa5_destination1
+Assertion PASSED for Job Phase = COPY
+Assertion PASSED for Job Phase = COPY
+Assertion PASSED for Job Status = QUEUED
+Assertion PASSED for Job Migration = NOT_STARTED
+10,Verify that the Job is now running in the COPY phase.,Job is tracked via assertions below.
+Assertion PASSED for Job Phase = COPY
+Assertion PASSED for Job Status = RUNNING
+Assertion PASSED for Job Migration = IN_PROGRESS
+11,Verify that the Job Numbers during the COPY Phase.,Job Numbers during the COPY phase are listed below:
+Assertion PASSED for Phase = COPY
+Assertion FAILED for Directories scanned = 15
+Assertion FAILED for Files Scanned = 916
+12,Verify that the Job is now in the SMARTSYNC phase.,Job is tracked via assertions below.
+Assertion PASSED for Job Phase = SMARTSYNC
+Assertion PASSED for Job Status = QUEUED
+Assertion PASSED for Job Migration = IN_PROGRESS
+13,Verify that the Job is now running in the SMARTSYNC phase.,Job is tracked via assertions below.
+Assertion PASSED for Job Phase = SMARTSYNC
+Assertion PASSED for Job Status = RUNNING
+Assertion PASSED for Job Migration = IN_PROGRESS
+14,Verify that the Job Numbers during the SMARTSYNC Phase.,Job Numbers during the SMARTSYNC phase are listed below:
+Assertion PASSED for Phase = SMARTSYNC
+Assertion FAILED for Directories scanned = 15
+Assertion FAILED for Files Scanned = 916
+15,Stop the job.,Job has started the process to STOP.,Pass
+16,Verify the job is completely Stopped.,Job Status = STOPPED.,Pass
+17,Verify that the Job is now in the CUTOVER phase.,Job is tracked via assertions below.
+Assertion PASSED for Job Phase = CUTOVER
+Assertion PASSED for Job Status = STOPPED
+Assertion PASSED for Job Migration = IN_PROGRESS
+18,Verify that the Job is now running in the CUTOVER phase.,Job is tracked via assertions below.
+Assertion PASSED for Job Phase = CUTOVER
+Assertion PASSED for Job Status = RUNNING
+Assertion PASSED for Job Migration = IN_PROGRESS
+19,Verify that the Job is now COMPLETED.,Job is tracked via assertions below.
+Assertion PASSED for Job Phase = CUTOVER
+Assertion PASSED for Job Status = COMPLETED
+Assertion PASSED for Job Migration = COMPLETED
+20,Verify that the Job Numbers during the CUTOVER Phase.,Job Numbers during the CUTOVER phase are listed below:
+Assertion FAILED for Phase = CUTOVER
+Assertion FAILED for Directories scanned = 15
+Assertion FAILED for Files Scanned = 916

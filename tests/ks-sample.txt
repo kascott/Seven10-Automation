@@ -1,0 +1,28 @@
+Deleted file - Y:\share\filter\qa5_exclude_file_dirs\file001.txt
+Deleted file - Y:\share\filter\qa5_exclude_file_dirs\file002.txt
+Deleted file - Y:\share\filter\qa5_exclude_file_dirs\file003.txt
+Deleted file - Y:\share\filter\qa5_exclude_file_dirs\file004.txt
+Deleted file - Y:\share\filter\qa5_exclude_file_dirs\file005.txt
+Deleted file - Y:\share\filter\qa5_exclude_file_dirs\source_exclude.txt
+Destintion folder is NOT empty.
+Removing all folders and folders...
+All folders and files have been deleted.
+Resuming automated test...
+Number of folders and files on source = 33
+Filter under test = *.dat
+Verify that filter condition exists on source...
+Test Conditon met - Source contains 15 that match *.dat
+Resuming automated test...
+1,Go to http://192.168.94.1:8080/#/login ,Storfirst Migration successfully opens.,Pass
+2,Login in as seven10., User seven10 is successfully logged in SFM.,Pass
+3,Verfiy the version under test.,Build Number -Version:6.0.1.RC40
+4,Go to Jobs\Job Management.,The Job Management screen opens.,Pass
+5,Click Create Job.,The + New Job popuop opens.,Pass
+6,Record the Job Number that is created.,Job Number = AUTO-FILTER-TEST_jeFxy,Pass
+7,Use the filter to find the job that was created above. filter on the following value: jeFxy, The filter is applied to the job.,Pass
+8,Run the job.,The job starts Running.,Pass
+Number of folders and files on destination = 18
+Filter under test = *.dat
+Verify that filter condition does NOT exists on destination...
+Test Conditon met - Destination contains 0 that match *.dat
+Resuming automated test...
