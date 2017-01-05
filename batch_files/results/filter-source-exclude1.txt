@@ -1,0 +1,15 @@
+X:\share\filter\qa4_exclude_file_dirs\file001.dat
+X:\share\filter\qa4_exclude_file_dirs\file002.dat
+X:\share\filter\qa4_exclude_file_dirs\file003.dat
+X:\share\filter\qa4_exclude_file_dirs\file004.dat
+X:\share\filter\qa4_exclude_file_dirs\file005.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\file001.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\file002.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\file003.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\file004.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\file005.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\folder002\file001.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\folder002\file002.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\folder002\file003.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\folder002\file004.dat
+X:\share\filter\qa4_exclude_file_dirs\folder001\folder002\file005.dat

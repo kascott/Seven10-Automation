@@ -1,0 +1,6 @@
+C:\Users\kscott\Documents\Automation\production\tests\classes
+C:\Users\kscott\Documents\Automation\production\tests\cleanup
+C:\Users\kscott\Documents\Automation\production\tests\properties
+C:\Users\kscott\Documents\Automation\production\tests\results
+C:\Users\kscott\Documents\Automation\production\tests\screenshot
+C:\Users\kscott\Documents\Automation\production\tests\results\html

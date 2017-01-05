@@ -1,0 +1,16 @@
+Y:\share\filter\qa5_include_files_dirs\file001.txt
+Y:\share\filter\qa5_include_files_dirs\file002.txt
+Y:\share\filter\qa5_include_files_dirs\file003.txt
+Y:\share\filter\qa5_include_files_dirs\file004.txt
+Y:\share\filter\qa5_include_files_dirs\file005.txt
+Y:\share\filter\qa5_include_files_dirs\source_exclude.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\file001.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\file002.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\file003.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\file004.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\file005.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\folder002\file001.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\folder002\file002.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\folder002\file003.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\folder002\file004.txt
+Y:\share\filter\qa5_include_files_dirs\folder001\folder002\file005.txt
